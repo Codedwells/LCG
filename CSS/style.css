@@ -33,7 +33,7 @@ header h1 {
 	margin-right: 8%;
 }
 
-ul {
+header ul {
 	display: flex;
 	gap: 20px;
 	justify-content: end;
@@ -41,17 +41,17 @@ ul {
 	font-size: 15pt;
 }
 
-li {
+header li {
 	padding: 15px;
 	color: white;
 }
 
-li:hover {
+header li:hover {
 	background-color: #306a9a;
 	border-radius: 17px;
 }
 
-ul a {
+header ul a {
 	text-decoration: none;
 }
 
@@ -67,8 +67,87 @@ ul a {
 	margin-top: 10px;
 }
 
-.navbtn:hover{
-	background-color:cadetblue;
+.navbtn:hover {
+	background-color: cadetblue;
+}
+
+/* About us section */
+.about-us {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 27px;
+	text-transform: capitalize;
+	line-height: 31.5px;
+
+	margin-top: 4rem;
+	color: white;
+}
+
+.about-us .container {
+	display: flex;
+	line-height: 31.5px;
+}
+
+.about-us h2,
+h3 {
+	border-left: 5px solid #fff;
+	padding-left: 10px;
+	line-height: 31.5px;
+}
+.about-us .container .left,
+.right {
+	max-width: 480px;
+	padding: 2.5rem;
+}
+
+.about-title {
+	margin-left: 2.5rem;
+	font-size: 32px;
+}
+
+.left-text,
+.right-text {
+	padding-bottom: 1rem;
+	font-size: 27px;
+	line-height: 31.5px;
+	letter-spacing: 7%;
+}
+.left-text h3 {
+	font-size: 27px;
+}
+.right-text {
+	font-weight: bold;
+}
+.container .left img {
+	margin-bottom: 1rem;
+	border-radius: 20px;
+	height: 257px;
+	width: 441px;
+}
+.left-text h3 {
+	margin-bottom: 1rem;
+}
+.right-text h3 {
+	height: 257px;
+}
+
+.right ul {
+	padding-left: 1rem;
+}
+.right ul li {
+	letter-spacing: 7%;
+	color: #324a88;
+}
+.events-section h5 {
+	font-weight: lighter;
+	margin-top: 5px;
+	font-size: 24px;
+	padding-left: 1rem;
+}
+.right ul li:nth-child(5) {
+	color: #fff;
 }
 
 /* Work section */
@@ -183,86 +262,7 @@ ul a {
 	margin-top: -20px;
 }
 
-/* About us section */
-.about-us {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	font-size: 27px;
-	text-transform: capitalize;
-	line-height: 31.5px;
-
-	margin-top: 4rem;
-	color: white;
-}
-
-.about-us .container {
-	display: flex;
-	line-height: 31.5px;
-}
-
-.about-us h2,
-h3 {
-	border-left: 5px solid #fff;
-	padding-left: 10px;
-	line-height: 31.5px;
-}
-.about-us .container .left,
-.right {
-	max-width: 480px;
-	padding: 2.5rem;
-}
-
-.about-title {
-	margin-left: 2.5rem;
-	font-size: 32px;
-}
-
-.left-text,
-.right-text {
-	padding-bottom: 1rem;
-	font-size: 27px;
-	line-height: 31.5px;
-	letter-spacing: 7%;
-}
-.left-text h3 {
-	font-size: 27px;
-}
-.right-text {
-	font-weight: bold;
-}
-.container .left img {
-	margin-bottom: 1rem;
-	border-radius: 20px;
-	height: 257px;
-	width: 441px;
-}
-.left-text h3 {
-	margin-bottom: 1rem;
-}
-.right-text h3 {
-	height: 257px;
-}
-
-.right ul {
-	padding-left: 1rem;
-}
-.right ul li {
-	letter-spacing: 7%;
-	color: #324a88;
-}
-.events-section h5 {
-	font-weight: lighter;
-	margin-top: 5px;
-	font-size: 24px;
-	padding-left: 1rem;
-}
-.right ul li:nth-child(5) {
-	color: #fff;
-}
-
-/* Footer section */
+/** Footer section */
 
 footer {
 	width: 100%;

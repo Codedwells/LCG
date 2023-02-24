@@ -4,7 +4,6 @@
 	box-sizing: border-box;
 	font-family: 'Outfit', sans-serif;
 }
-
 body {
 	background-color: #324a88;
 }
@@ -67,8 +66,6 @@ ul a {
 	border: none;
 }
 
-/* Work section */
-
 .work_container {
 	background: rgba(255, 255, 255, 0.72);
 	border-radius: 19px;
@@ -94,6 +91,82 @@ ul a {
 
 .project_description{
 	margin-top: 33px;
+}
+
+/* About us section */
+.about-us{
+	width:100%;
+	height:100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 270px;
+	font-size: 27px;
+	text-transform: capitalize;
+	line-height: 31.5px;
+	color: white;
+}
+
+.about-us .container{
+	display: flex;
+	line-height: 31.5px;
+}
+
+.about-us  h2,h3{
+	border-left: 5px solid #fff;
+	padding-left: 10px;
+	line-height: 31.5px;
+}
+.about-us .container .left,.right{
+	max-width:480px;
+	padding:2.5rem;
+}
+
+.about-title{
+	margin-left: 2.5rem;
+	font-size:32px;
+}
+
+.left-text,.right-text{
+	padding-bottom:1rem;
+	font-size:27px;
+	line-height: 31.5px;
+	letter-spacing: 7%;
+}
+.left-text h3{
+	font-size: 27px;
+}
+.right-text{
+	font-weight: bold;
+}
+.container .left img{
+	margin-bottom: 1rem;
+	border-radius:20px;
+	height: 257px;
+	width:441px;
+}
+.left-text h3{
+	margin-bottom: 1rem;
+}
+.right-text h3{
+	height: 257px;
+}
+
+.right ul{
+	padding-left: 1rem;
+}
+.right ul li{
+	letter-spacing: 7%;
+	color: #324a88;
+}
+.events-section h5{
+	font-weight: lighter;
+	margin-top: 5px;
+	font-size:24px;
+	padding-left: 1rem;
+}
+.right ul li:nth-child(5){
+	color:#fff;
 }
 
 /* Footer section */
@@ -159,3 +232,4 @@ footer button {
 	position: absolute;
 	bottom: 0;
 }
+

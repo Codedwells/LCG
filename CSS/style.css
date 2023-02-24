@@ -4,3 +4,14 @@
 	box-sizing: border-box;
 	font-family: 'Outfit', sans-serif;
 }
+
+body {
+	background-color: #324a88;
+}
+
+.work_container {
+	background-color: white;
+
+	display: flex;
+	flex-direction: column;
+}

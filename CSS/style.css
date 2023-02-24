@@ -3,3 +3,73 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+/* h1{
+	
+}
+p{
+	;
+	line-height: 30PX;
+} */
+
+.landingpage{
+	display: flex;
+	gap: 10px;
+	justify-content: space-around;
+	color: #ffffff;
+}
+
+.landingpage p{
+	line-height: 2;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight: 100px;
+}
+.landingpage h1{
+	font-size: xx-large;
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing: 3px;
+}
+
+.left-side{
+	justify-content: end;
+	align-items: center;
+}
+
+.left-side img{
+	width: 60%;
+	border: none;
+	border-radius: 50%;
+
+}
+
+.rightside{
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-evenly; */
+}
+
+.button-container{
+	display: flex;
+}
+
+.button-container .btn{
+	display: flex;
+	border: none;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 10px;
+	color: white;
+	margin: 15px 10px;
+	padding: 10px;
+}
+
+.button-container .btn img{
+	width: 30%;
+}
+
+.button-container  .twitter{
+	background-color: #10afd3;
+}
+.button-container .git{
+	background-color: black;
+}

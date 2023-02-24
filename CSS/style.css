@@ -9,6 +9,8 @@ body {
 	background-color: #324a88;
 }
 
+/* Navigation section */
+
 header {
 	display: flex;
 	flex-direction: row;
@@ -23,6 +25,10 @@ header {
 header h1 {
 	text-transform: uppercase;
 	cursor: pointer;
+}
+
+#nav {
+	margin-right: 8%;
 }
 
 ul {
@@ -61,27 +67,36 @@ ul a {
 	border: none;
 }
 
-body {
-	background-color: #324a88;
-}
+/* Work section */
 
 .work_container {
-	background-color: white;
+	background: rgba(255, 255, 255, 0.72);
+	border-radius: 19px;
 
 	display: flex;
 	flex-direction: column;
+	max-width: 360px;
+	height: 418px;
+	padding: 15px;
 }
 
-#nav {
-	margin-right: 8%;
+.html_icon {
+	width: 94px;
+	height: 94px;
 }
 
-.work_container {
-	background-color: white;
-
+.icon_container{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
 }
+
+.project_description{
+	margin-top: 33px;
+}
+
+/* Footer section */
 
 footer {
 	width: 100%;

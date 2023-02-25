@@ -14,6 +14,8 @@
 
 - Don't commit the lock files eg package.json
 
+- Keep your PR as small as possible
+
 
 > # Note: Breaking any of the rules above👆🏽 will get your PR rejected
 

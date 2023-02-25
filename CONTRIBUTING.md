@@ -23,9 +23,15 @@
 
 ### Contribute in project
 
-- JavaScript
-- HTML
-- CSS
+- Frontend
+  - JavaScript
+  - HTML
+  - CSS
+
+- Backend
+  - NodeJs
+  - Express
+  - MongoDB
 
 ---
 
@@ -103,7 +109,17 @@ git push origin YourBranchName
 
 11. Congratulations! You've made your first contribution to [LCG](https://github.com/Codedwells/LCG/graphs/contributors)!
 
-🏆 After this, the maintainers will review the PR and will merge it if it helps move the LCG project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase.
+🏆 After this, the maintainers will review the PR and will merge it if it helps move the LCG project forward. Otherwise,\
+it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase.
+
+---
+
+> Your PR
+
+> When making your 🚀PRs please do them in small chunks e.g after revamping the navbar make a PR. This ensures\
+the PRs are manageable and easy to review. Thank for taking interest in this project.
+
+>💝 Your contribution is appreciated.
 
 ---
 

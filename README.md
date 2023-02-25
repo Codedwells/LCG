@@ -1,5 +1,6 @@
 # 💻LCG (Learn Code and Grow)
 This is a 👐community where we help each other grow.
+![LCG website design](./assets/screenshots/project_design.jpeg)
 
 <br>
 
@@ -10,10 +11,16 @@ LCG is an open-source community project.It is a website for our local community.
 
 ### 🧰 Languages / Tools
 
-For all the way inclusivity😃 we decided to use these technologies:
-- JavaScript
-- HTML
-- CSS
+For the project decided to use these technologies:
+- Frontend
+  - JavaScript
+  - HTML
+  - CSS
+
+- Backend
+  - NodeJs
+  - Express
+  - MongoDB
 
 <br>
 

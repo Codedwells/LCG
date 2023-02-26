@@ -173,10 +173,12 @@ header ul a {
 /* Work section */
 .ourwork_section {
 	padding: 0 10rem;
+	margin-top:4rem;
 }
 
 .ourwork_card_container {
 	display: flex;
+	justify-content: space-between;
 	flex-direction: row;
 	gap: 20px;
 }

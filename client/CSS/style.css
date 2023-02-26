@@ -18,19 +18,19 @@ header {
 	justify-content: space-between;
 	background: transparent;
 	color: white;
-
-	padding: 10px;
+	padding:10px ;
 }
 
 header h1 {
 	text-transform: uppercase;
 	cursor: pointer;
-
 	margin-left: 3rem;
+	padding-left:6rem;
 }
 
 #nav {
 	margin-right: 8%;
+	padding-right: 6px;
 }
 
 header ul {
@@ -82,12 +82,13 @@ header ul a {
 	line-height: 31.5px;
 	margin-top: 4rem;
 	color: white;
-	height: 100vh;
 }
 
 .about-us .container {
 	display: flex;
 	line-height: 31.5px;
+	height: fit-content;
+	padding: 0 10rem;
 }
 
 .about-us h2,
@@ -99,12 +100,14 @@ h3 {
 .about-us .container .left,
 .right {
 	max-width: 480px;
-	padding: 2.5rem;
+	padding:2.5rem;
+	padding-left:0rem;
 }
 
 .about-title {
-	margin-left: 2.5rem;
+	margin-left: 10rem;
 	font-size: 32px;
+	width: fit-content;
 }
 
 .left-text,
@@ -138,7 +141,7 @@ h3 {
 }
 .right ul li {
 	letter-spacing: 7%;
-	color: #324a88;
+	color: #306a9a;
 }
 .events-section h5 {
 	font-weight: lighter;

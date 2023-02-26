@@ -5,7 +5,7 @@
 	font-family: 'Outfit', sans-serif;
 }
 body {
-	background-color: #324a88;
+	background-color: #240d52;
 	overflow-x: hidden;
 }
 
@@ -89,6 +89,7 @@ header ul a {
 	line-height: 31.5px;
 	height: fit-content;
 	padding: 0 10rem;
+	justify-content: space-between;
 }
 
 .about-us h2,
@@ -102,55 +103,70 @@ h3 {
 	max-width: 480px;
 	padding:2.5rem;
 	padding-left:0rem;
+	line-height: 31.5px;
 }
 
-.about-title {
+.about-us .about-title {
 	margin-left: 10rem;
 	font-size: 32px;
 	width: fit-content;
 }
 
-.left-text,
+.about-us .container .left-text,
 .right-text {
 	padding-bottom: 1rem;
 	font-size: 27px;
 	line-height: 31.5px;
 	letter-spacing: 7%;
 }
-.left-text h3 {
+.about-us .container .left .left-text h3 {
 	font-size: 27px;
 }
-.right-text {
+.about-us .container .right .right-text {
+	padding-top: 1rem;
 	font-weight: bold;
 }
-.container .left img {
+.about-us .container .left .image-container {
 	margin-bottom: 1rem;
 	border-radius: 20px;
 	height: 257px;
 	width: 441px;
+	overflow: hidden;
+	
 }
-.left-text h3 {
-	margin-bottom: 1rem;
+.about-us .container .left .image-container img{
+	transition: 0.5s;
 }
-.right-text h3 {
+.about-us .container .left .image-container img:hover{
+	transform: scale(1.2);
+}
+.about-us .container .left .left-text h3 {
+	margin-bottom: 2.5rem;
+}
+.about-us .container .right .right-text {
 	height: 257px;
 }
 
-.right ul {
+.about-us .container .right ul {
 	padding-left: 1rem;
 }
-.right ul li {
+.about-us .container .right ul li {
 	letter-spacing: 7%;
-	color: #306a9a;
+	color: #324A88;
+	line-height: 40px;
 }
-.events-section h5 {
+.about-us .container .events-section h5 {
 	font-weight: lighter;
 	margin-top: 5px;
 	font-size: 24px;
 	padding-left: 1rem;
 }
-.right ul li:nth-child(5) {
+.about-us .container .right ul li:nth-child(5) {
 	color: #fff;
+}
+.about-us .container .right .events-section img{
+	width:auto; 
+	height:30px;
 }
 
 /* Work section */
@@ -198,7 +214,6 @@ h3 {
 .ourwork_html_icon {
 	width: 98px;
 	height: 98px;
-
 	background-color: white;
 	border-radius: 50%;
 	padding: 8px;
@@ -214,6 +229,7 @@ h3 {
 .ourwork_project_description {
 	margin-top: 15px;
 	font-family: 'Poppins';
+	padding:10px;
 }
 
 .ourwork_btn {

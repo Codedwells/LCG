@@ -80,9 +80,9 @@ header ul a {
 	font-size: 27px;
 	text-transform: capitalize;
 	line-height: 31.5px;
-
 	margin-top: 4rem;
 	color: white;
+	height: 100vh;
 }
 
 .about-us .container {

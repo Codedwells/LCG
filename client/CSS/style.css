@@ -92,8 +92,7 @@ header ul a {
 	justify-content: space-between;
 }
 
-.about-us h2,
-h3 {
+.about-us h2,.about-us h3 {
 	border-left: 5px solid #fff;
 	padding-left: 10px;
 	line-height: 31.5px;
@@ -290,7 +289,6 @@ footer {
 	background-color: #3c4862;
 	padding: 2em;
 	color: #c2c2a3;
-
 	margin-top: 8rem;
 }
 

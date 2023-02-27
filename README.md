@@ -92,7 +92,7 @@ LCG is licensed under the MIT License - see the [LICENSE](LICENSE) file for deta
 
 Thanks a lot for spending your time helping LCG grow. Thanks a lot! Keep rocking🍻
 
-[![Contributors](https://contrib.rocks/image?repo=Codedwells/LCG)](https://github.com/Codedwells/LCG/graphs/contributors)
+![Contributors](https://contrib.rocks/image?repo=Codedwells/LCG)
 
 ## 🙏🏽 Support
 

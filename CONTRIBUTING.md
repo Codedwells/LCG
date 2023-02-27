@@ -1,21 +1,20 @@
 ## Rules
 
-- Don't create a pull request on an issue that doesn't exist, create an issue first and if the changes you are proposing are said to be okay, you can go ahead and create a pull request
+-   Don't create a pull request on an issue that doesn't exist, create an issue first and if the changes you are proposing are said to be okay, you can go ahead and create a pull request
 
-- Don't work on anything unless you are assigned, if you make a pull request without being assigned to that issue, it will be closed without being merged
+-   Don't work on anything unless you are assigned, if you make a pull request without being assigned to that issue, it will be closed without being merged
 
-- Don't work on more than one issue at a time, this is so that you don't make a huge pull request and others can have opportunities to work on another issue while you work on something else
+-   Don't work on more than one issue at a time, this is so that you don't make a huge pull request and others can have opportunities to work on another issue while you work on something else
 
-- Do read the `readme.md` file
+-   Do read the `readme.md` file
 
-- Add the Issue you worked on in your Pull Request 
+-   Add the Issue you worked on in your Pull Request
 
-- Don't work on the main branch, create your own branch
+-   Don't work on the main branch, create your own branch
 
-- Don't commit the lock files eg package.json
+-   Don't commit the lock files eg package.json
 
-- Keep your PR as small as possible
-
+-   Keep your PR as small as possible
 
 > # Note: Breaking any of the rules above👆🏽 will get your PR rejected
 
@@ -23,30 +22,32 @@
 
 ### Contribute in project
 
-- Frontend
-  - JavaScript
-  - HTML
-  - CSS
+-   Frontend
 
-- Backend
-  - NodeJs
-  - Express
-  - MongoDB
+    -   JavaScript
+    -   HTML
+    -   CSS
+
+-   Backend
+    -   NodeJs
+    -   Express
+    -   MongoDB
 
 ---
 
 ## 💥 How to Contribute
 
-- Take a look at the existing [Issues](https://github.com/Codedwells/LCG/issues) or [create a new issue](https://github.com/Codedwells/LCG/issues/new/choose)!
-- [Fork the Repo](https://github.com/Codedwells/LCG/fork). Then, create a branch for any issue that you are working on. Finally, commit your work.
-- Create a [Pull Request](https://github.com/Codedwells/LCG/compare) (PR), which will be promptly reviewed and given suggestions for improvements by the community.
-- Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
+-   Take a look at the existing [Issues](https://github.com/Codedwells/LCG/issues) or [create a new issue](https://github.com/Codedwells/LCG/issues/new/choose)!
+-   [Fork the Repo](https://github.com/Codedwells/LCG/fork). Then, create a branch for any issue that you are working on. Finally, commit your work.
+-   Create a [Pull Request](https://github.com/Codedwells/LCG/compare) (PR), which will be promptly reviewed and given suggestions for improvements by the community.
+-   Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
 
 ---
 
 ## 🌟 HOW TO MAKE A PULL REQUEST:
 
-1. Start by making a Fork of the [LCG](https://github.com/Codedwells/LCG) repository. Click on the <a href="https://github.com/Codedwells/LCG/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a>Fork symbol at the top right corner.
+1. Start by making a Fork of the [LCG](https://github.com/Codedwells/LCG) repository. Click on the
+   <a href="https://github.com/Codedwells/LCG/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a>Fork symbol at the top right corner.
 
 2. Clone your new fork of the repository in the terminal/CLI on your computer with the following command:
 
@@ -74,8 +75,8 @@ git checkout -b YourBranchName
 
 6. Sync your fork or your local repository with the origin repository:
 
-- In your forked repository, click on "Fetch upstream"
-- Click "Fetch and merge"
+-   In your forked repository, click on "Fetch upstream"
+-   Click "Fetch and merge"
 
 ### Alternatively, Git CLI way to Sync forked repository with origin repository:
 
@@ -91,9 +92,23 @@ git merge upstream/main
 
 7. Make your changes to the source code.
 
-8. Stage your changes and commit:
+8. Add and commit the changes:
 
 ⚠️ Make sure not to commit package.json or package-lock.json file
+
+Add the changes that you have made to the branch using the `git add` command:
+
+```bash
+git add TheFileNameYouChanged
+```
+
+Example:
+
+```bash
+git add README.md
+```
+
+Now commit those changes using `git commit` command:
 
 ```bash
 git commit -m "Your commit message"
@@ -117,12 +132,13 @@ it will be given constructive feedback and suggestions for the changes needed to
 > Your PR
 
 > When making your 🚀PRs please do them in small chunks e.g after revamping the navbar make a PR. This ensures\
-the PRs are manageable and easy to review. Thank for taking interest in this project.
+> the PRs are manageable and easy to review. Thank for taking interest in this project.
 
->💝 Your contribution is appreciated.
+> 💝 Your contribution is appreciated.
 
 ---
 
 ## 💥 Issues
 
-In order to discuss changes, you are welcome to [open an issue](https://github.com/Codedwells/LCG/issues/new/choose) about what you would like to contribute. Enhancements are always encouraged and appreciated.
+In order to discuss changes, you are welcome to [open an issue](https://github.com/Codedwells/LCG/issues/new/choose) about what you would like to contribute. Enhancements are always encouraged and
+appreciated.

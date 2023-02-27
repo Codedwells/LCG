@@ -38,11 +38,11 @@ header ul {
 	gap: 20px;
 	justify-content: end;
 	list-style: none;
-	font-size: 15pt;
+	font-size: 15px;
 }
 
 header li {
-	padding: 15px;
+	padding: 10px;
 	color: white;
 }
 
@@ -64,7 +64,6 @@ header ul a {
 	background-color: #306a9a;
 	width: 80px;
 	text-transform: uppercase;
-	margin-top: 10px;
 }
 
 .navbtn:hover {
@@ -339,7 +338,9 @@ footer button {
 	text-transform: uppercase;
 	margin-top: 10px;
 }
-
+footer button:hover{
+	background-color: cadetblue;
+}
 #copy {
 	text-align: center;
 	margin-top: 20px;

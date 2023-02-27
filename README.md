@@ -1,12 +1,13 @@
 # 💻LCG (Learn Code and Grow)
-This is a 👐 community where we help each other grow.
-![LCG website design](client/assets/screenshots/project_design.jpeg)
+
+This is a 👐 community where we help each other grow. ![LCG website design](client/assets/screenshots/project_design.jpeg)
 
 > Link to figma file [here](https://www.figma.com/file/wKVEmN4WKVAZCeBEwhAvYH/Untitled?node-id=0%3A1&t=Res45b52njY2m1uJ-1)
 
 <br>
 
 ### 🚀 About
+
 LCG is an open-source community project.It is a website for our local community.
 
 <br>
@@ -14,15 +15,17 @@ LCG is an open-source community project.It is a website for our local community.
 ### 🧰 Languages / Tools
 
 For the project decided to use these technologies:
-- Frontend
-  - JavaScript
-  - HTML
-  - CSS
 
-- Backend
-  - NodeJs
-  - Express
-  - MongoDB
+-   Frontend
+
+    -   JavaScript
+    -   HTML
+    -   CSS
+
+-   Backend
+    -   NodeJs
+    -   Express
+    -   MongoDB
 
 <br>
 
@@ -34,7 +37,7 @@ Check out the website: [LCG](https://codedwells.github.io/LCG)
 
 ## 👌🏾 What you have to do to contribute
 
-- [Read the rules](https://github.com/Codedwells/LCG/blob/main/CONTRIBUTING.md#rules)
+-   [Read the rules](https://github.com/Codedwells/LCG/blob/main/CONTRIBUTING.md#rules)
 
 <br>
 
@@ -59,7 +62,7 @@ git add <path to the file you worked on>
 3. Commit your changes with
 
 ```bash
-git cz
+git commit -m "Your commit message"
 ```
 
 4. Push your changes
@@ -76,9 +79,9 @@ git push
 
 ## 👩🏽‍💻 Contributing
 
-- Contributions make the open source community such an amazing place to learn, inspire, and create.
-- Any contributions you make are greatly appreciated.
-- Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
+-   Contributions make the open source community such an amazing place to learn, inspire, and create.
+-   Any contributions you make are greatly appreciated.
+-   Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
 
 <br>
 

@@ -374,7 +374,7 @@ footer button:hover {
 
 @media(max-width:800px){
     header{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 100%;
         justify-content: flex-start;
         margin-right: 0;
@@ -402,5 +402,6 @@ footer button:hover {
     #close_nav{
         /* display: block; */
         margin-left: auto;
+        margin-top: 0;
     }
 }

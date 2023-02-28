@@ -14,7 +14,7 @@ LCG is an open-source community project.It is a website for our local community.
 
 ### 🧰 Languages / Tools
 
-For the project decided to use these technologies:
+For the project we decided to use these technologies:
 
 -   Frontend
 

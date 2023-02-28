@@ -70,6 +70,24 @@ header ul a {
     background-color: cadetblue;
 }
 
+.lines{
+    width: 36px;
+        /* height: px; */
+        border: 0.125rem solid rgb(238, 231, 231);
+        margin-bottom: 0.5rem;
+}
+#open_nav{
+    display: none;
+    font-size: 18pt;
+}
+#close_nav{
+    font-size: 24pt;
+    display: none;
+}
+
+
+
+
 /* About us section */
 .about-us {
     width: 100%;
@@ -376,5 +394,13 @@ footer button:hover {
 @media(max-width:550px){
     #nav{
         display: none;
+    }
+    #open_nav{
+        display: block;
+        margin-left: auto;
+    }
+    #close_nav{
+        display: block;
+        margin-left: auto;
     }
 }

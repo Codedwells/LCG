@@ -81,7 +81,7 @@ header ul a {
     font-size: 18pt;
 }
 #close_nav{
-    font-size: 24pt;
+    font-size: 3.5rem;
     display: none;
 }
 
@@ -400,7 +400,7 @@ footer button:hover {
         margin-left: auto;
     }
     #close_nav{
-        display: block;
+        /* display: block; */
         margin-left: auto;
     }
 }

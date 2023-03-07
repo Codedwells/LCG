@@ -72,69 +72,67 @@ header ul a {
 
 /* Hero Section */
 
-.landingpage{
-	display: flex;
-	gap: 10px;
-	justify-content: space-around;
-	color: #ffffff;
+.landingpage {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    color: #ffffff;
 }
 
-.landingpage p{
-	line-height: 2;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:20px;
-	font-weight: 100px;
+.landingpage p {
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100px;
 }
-.landingpage h1{
-	font-size: xx-large;
-	font-family:Arial, Helvetica, sans-serif;
-	letter-spacing: 3px;
-}
-
-.left-side{
-	justify-content: end;
-	align-items: center;
+.landingpage h1 {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
 }
 
-.left-side img{
-	width: 60%;
-	border: none;
-	border-radius: 50%;
-
+.left-side {
+    justify-content: end;
+    align-items: center;
 }
 
-.rightside{
-	display: flex;
-	flex-direction: column;
-	/* justify-content: space-evenly; */
+.left-side img {
+    width: 60%;
+    border: none;
+    border-radius: 50%;
 }
 
-.button-container{
-	display: flex;
+.rightside {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
 }
 
-.button-container .btn{
-	display: flex;
-	border: none;
-	justify-content: space-around;
-	align-items: center;
-	border-radius: 10px;
-	color: white;
-	margin: 15px 10px;
-	padding: 10px;
+.button-container {
+    display: flex;
 }
 
-.button-container .btn img{
-	width: 30%;
+.button-container .btn {
+    display: flex;
+    border: none;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    margin: 15px 10px;
+    padding: 10px;
 }
 
-.button-container  .twitter{
-	background-color: #10afd3;
-}
-.button-container .git{
-	background-color: black;
+.button-container .btn img {
+    width: 30%;
 }
 
+.button-container .twitter {
+    background-color: #10afd3;
+}
+.button-container .git {
+    background-color: black;
+}
 
 /* About us section */
 .about-us {
@@ -242,9 +240,8 @@ header ul a {
 }
 
 .ourwork_card_container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
 
@@ -413,206 +410,211 @@ footer button:hover {
 }
 
 @media only screen and (max-width: 640px) {
-    .about-us .container{
-        flex-direction:column;
+    .about-us .container {
+        flex-direction: column;
         padding: 0 5rem;
     }
-    .about-us .about-title{
+    .about-us .about-title {
         margin-left: 5rem;
     }
-    .about-us .container .left .image-container{
-        width:calc(500px - 10rem);
+    .about-us .container .left .image-container {
+        width: calc(500px - 10rem);
         height: fit-content;
         overflow: hidden;
     }
-    .about-us .image-container img{
+    .about-us .image-container img {
         width: calc(500px - 10rem);
     }
     .about-us .container .left-text,
-.right-text {
-    font-size: 20px;
-}
-.about-us .container 
-.right-text 
-{
-    padding-top: 0;
-    margin-bottom: 5rem;
-}
-.about-us .container 
-.left-text 
-{
-    margin-bottom: 0rem;
-    display: none;
-}
-.about-us .container 
-.right{
-    margin-top:0;
-}
-.about-us .container .left,
-.right {
-    padding: 0rem;
-} 
-.about-us .container .right .right-text {
-    height: 230px ;
-}
-.about-us .container .right ul li {
-    letter-spacing: 5%;
-    color: #324a88;
-    font-size: 20px;
-}
-.about-us .container .events-section h5{
-    font-size: 16px;
-    font-weight: 200;
-}   
-}
-@media only screen and (max-width: 840px) {
-    .about-us .container{
-        padding: 0 5rem;
+    .right-text {
+        font-size: 20px;
     }
-    .about-us .about-title{
-        margin-left: 5rem;
+    .about-us .container .right-text {
+        padding-top: 0;
+        margin-bottom: 5rem;
     }
-    .about-us .container .left .image-container{
-        width:calc(500px - 10rem);
-        height: fit-content;
-        overflow: hidden;
+    .about-us .container .left-text {
+        margin-bottom: 0rem;
+        display: none;
     }
-    .about-us .image-container img{
-        width: calc(500px - 10rem);
+    .about-us .container .right {
+        margin-top: 0;
     }
-    .about-us .container .left-text,
-.right-text {
-    font-size: 20px;
-}
-.about-us .container 
-.right-text 
-{
-    padding-top: 0;
-    margin-bottom: 5rem;
-}
-.about-us .container 
-.left-text 
-{
-    margin-bottom: 0rem;
-}
-.about-us .container 
-.right{
-    margin-top:0;
-}
-.about-us .container .left,
-.right {
-    padding: 0rem 1rem;
-} 
-.about-us .container .right .right-text {
-    padding-top: 0;
-    height: 150px;
-    font-size: 20px;
-    line-height: 23.5px;
-}
-.about-us .container .right ul li {
-    letter-spacing: 5%;
-    color: #324a88;
-    font-size: 20px;
-}
-.about-us .container .events-section h5{
-    font-size: 16px;
-    font-weight: 200;
-}   
-}
+    .about-us .container .left,
+    .right {
+        padding: 0rem;
+    }
+    .about-us .container .right .right-text {
+        height: 230px;
+    }
+    .about-us .container .right ul li {
+        letter-spacing: 5%;
+        color: #324a88;
+        font-size: 20px;
+    }
+    .about-us .container .events-section h5 {
+        font-size: 16px;
+        font-weight: 200;
+    }
 
-@media only screen and (max-width: 1024px) {
-    .about-us .container{
-        padding: 0 5rem;
-    }
-    .about-us .about-title{
-        margin-left: 5rem;
-    }
-    .about-us .container .left .image-container{
-        width:calc(500px - 10rem);
-        height: fit-content;
-        overflow: hidden;
-    }
-    .about-us .image-container img{
-        width: calc(500px - 10rem);
-    }
-    .about-us .container .left-text,
-.right-text {
-    font-size: 20px;
-}
-.about-us .container 
-.right-text 
-{
-    padding-top: 0;
-    margin-bottom: 5rem;
-}
-.about-us .container 
-.left-text 
-{
-    margin-bottom: 0rem;
-}
-.about-us .container 
-.right{
-    margin-top:0;
-}
-.about-us .container .left,
-.right {
-    padding: 0rem 1rem;
-} 
-.about-us .container .right .right-text {
-    padding-top: 0;
-    height: 150px;
-    font-size: 20px;
-    line-height: 23.5px;
-}
-.about-us .container .right ul li {
-    letter-spacing: 5%;
-    color: #324a88;
-    font-size: 20px;
-}
-.about-us .container .events-section h5{
-    font-size: 16px;
-    font-weight: 200;
-}   
-}
+    /* Our work section */
 
-@media(max-width: 640px){
-    #quick-links{
+    .ourwork_card_container {
+        grid-template-columns: 1fr !important;
+    }
+
+    /* Footer */
+
+    #quick-links {
         /* display: block; */
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
     }
 
-    #footer-links{
+    #footer-links {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #brand{
+    #brand {
         margin-bottom: 20px;
     }
 
-    #updates{
+    #updates {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 }
+@media only screen and (max-width: 840px) {
+    /* About us section */
+    .about-us .container {
+        padding: 0 5rem;
+    }
+    .about-us .about-title {
+        margin-left: 5rem;
+    }
+    .about-us .container .left .image-container {
+        width: calc(500px - 10rem);
+        height: fit-content;
+        overflow: hidden;
+    }
+    .about-us .image-container img {
+        width: calc(500px - 10rem);
+    }
+    .about-us .container .left-text,
+    .right-text {
+        font-size: 20px;
+    }
+    .about-us .container .right-text {
+        padding-top: 0;
+        margin-bottom: 5rem;
+    }
+    .about-us .container .left-text {
+        margin-bottom: 0rem;
+    }
+    .about-us .container .right {
+        margin-top: 0;
+    }
+    .about-us .container .left,
+    .right {
+        padding: 0rem 1rem;
+    }
+    .about-us .container .right .right-text {
+        padding-top: 0;
+        height: 150px;
+        font-size: 20px;
+        line-height: 23.5px;
+    }
+    .about-us .container .right ul li {
+        letter-spacing: 5%;
+        color: #324a88;
+        font-size: 20px;
+    }
+    .about-us .container .events-section h5 {
+        font-size: 16px;
+        font-weight: 200;
+    }
 
-@media(min-width: 641px) and (max-width: 840px){
-    #quick-links{
+    /* Our work section */
+    .ourwork_section {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ourwork_card_container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Footer */
+
+    #quick-links {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         padding: 10px;
     }
-    #updates{
+    #updates {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    #brand{
+    #brand {
         margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    /* About us section */
+    .about-us .container {
+        padding: 0 5rem;
+    }
+    .about-us .about-title {
+        margin-left: 5rem;
+    }
+    .about-us .container .left .image-container {
+        width: calc(500px - 10rem);
+        height: fit-content;
+        overflow: hidden;
+    }
+    .about-us .image-container img {
+        width: calc(500px - 10rem);
+    }
+    .about-us .container .left-text,
+    .right-text {
+        font-size: 20px;
+    }
+    .about-us .container .right-text {
+        padding-top: 0;
+        margin-bottom: 5rem;
+    }
+    .about-us .container .left-text {
+        margin-bottom: 0rem;
+    }
+    .about-us .container .right {
+        margin-top: 0;
+    }
+    .about-us .container .left,
+    .right {
+        padding: 0rem 1rem;
+    }
+    .about-us .container .right .right-text {
+        padding-top: 0;
+        height: 150px;
+        font-size: 20px;
+        line-height: 23.5px;
+    }
+    .about-us .container .right ul li {
+        letter-spacing: 5%;
+        color: #324a88;
+        font-size: 20px;
+    }
+    .about-us .container .events-section h5 {
+        font-size: 16px;
+        font-weight: 200;
     }
 }

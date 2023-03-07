@@ -70,6 +70,70 @@ header ul a {
     background-color: cadetblue;
 }
 
+/* Hero Section */
+
+.landingpage {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+.landingpage p {
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100px;
+}
+.landingpage h1 {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+
+.left-side {
+    justify-content: end;
+    align-items: center;
+}
+
+.left-side img {
+    width: 60%;
+    border: none;
+    border-radius: 50%;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+.button-container {
+    display: flex;
+}
+
+.button-container .btn {
+    display: flex;
+    border: none;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    margin: 15px 10px;
+    padding: 10px;
+}
+
+.button-container .btn img {
+    width: 30%;
+}
+
+.button-container .twitter {
+    background-color: #10afd3;
+}
+.button-container .git {
+    background-color: black;
+}
+
 /* About us section */
 .about-us {
     width: 100%;
@@ -176,10 +240,9 @@ header ul a {
 }
 
 .ourwork_card_container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
 }
 
 .ourwork_heading {
@@ -344,45 +407,4 @@ footer button:hover {
 #copy {
     text-align: center;
     margin-top: 20px;
-}
-@media(max-width: 640px){
-    #quick-links{
-        /* display: block; */
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    #footer-links{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #brand{
-        margin-bottom: 20px;
-    }
-
-    #updates{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media(min-width: 641px) and (max-width: 840px){
-    #quick-links{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        padding: 10px;
-    }
-    #updates{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #brand{
-        margin-top: 20px;
-    }
 }

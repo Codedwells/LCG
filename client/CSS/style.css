@@ -345,7 +345,7 @@ footer button:hover {
     text-align: center;
     margin-top: 20px;
 }
-@media(max-width: 540px){
+@media(max-width: 640px){
     #quick-links{
         /* display: block; */
         display: flex;
@@ -367,5 +367,22 @@ footer button:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media(min-width: 641px) and (max-width: 840px){
+    #quick-links{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px;
+    }
+    #updates{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #brand{
+        margin-top: 20px;
     }
 }

@@ -411,10 +411,8 @@ footer button:hover {
     text-align: center;
     margin-top: 20px;
 }
+
 @media only screen and (max-width: 640px) {
-    .about-us{
-    
-    }
     .about-us .container{
         flex-direction:column;
         padding: 0 5rem;
@@ -422,5 +420,157 @@ footer button:hover {
     .about-us .about-title{
         margin-left: 5rem;
     }
-    
+    .about-us .container .left .image-container{
+        width:calc(500px - 10rem);
+        height: fit-content;
+        overflow: hidden;
+    }
+    .about-us .image-container img{
+        width: calc(500px - 10rem);
+    }
+    .about-us .container .left-text,
+.right-text {
+    font-size: 20px;
+}
+.about-us .container 
+.right-text 
+{
+    padding-top: 0;
+    margin-bottom: 5rem;
+}
+.about-us .container 
+.left-text 
+{
+    margin-bottom: 0rem;
+    display: none;
+}
+.about-us .container 
+.right{
+    margin-top:0;
+}
+.about-us .container .left,
+.right {
+    padding: 0rem;
+} 
+.about-us .container .right .right-text {
+    height: 230px ;
+}
+.about-us .container .right ul li {
+    letter-spacing: 5%;
+    color: #324a88;
+    font-size: 20px;
+}
+.about-us .container .events-section h5{
+    font-size: 16px;
+    font-weight: 200;
+}   
+}
+@media only screen and (max-width: 840px) {
+    .about-us .container{
+        padding: 0 5rem;
+    }
+    .about-us .about-title{
+        margin-left: 5rem;
+    }
+    .about-us .container .left .image-container{
+        width:calc(500px - 10rem);
+        height: fit-content;
+        overflow: hidden;
+    }
+    .about-us .image-container img{
+        width: calc(500px - 10rem);
+    }
+    .about-us .container .left-text,
+.right-text {
+    font-size: 20px;
+}
+.about-us .container 
+.right-text 
+{
+    padding-top: 0;
+    margin-bottom: 5rem;
+}
+.about-us .container 
+.left-text 
+{
+    margin-bottom: 0rem;
+}
+.about-us .container 
+.right{
+    margin-top:0;
+}
+.about-us .container .left,
+.right {
+    padding: 0rem 1rem;
+} 
+.about-us .container .right .right-text {
+    padding-top: 0;
+    height: 150px;
+    font-size: 20px;
+    line-height: 23.5px;
+}
+.about-us .container .right ul li {
+    letter-spacing: 5%;
+    color: #324a88;
+    font-size: 20px;
+}
+.about-us .container .events-section h5{
+    font-size: 16px;
+    font-weight: 200;
+}   
+}
+
+@media only screen and (max-width: 1024px) {
+    .about-us .container{
+        padding: 0 5rem;
+    }
+    .about-us .about-title{
+        margin-left: 5rem;
+    }
+    .about-us .container .left .image-container{
+        width:calc(500px - 10rem);
+        height: fit-content;
+        overflow: hidden;
+    }
+    .about-us .image-container img{
+        width: calc(500px - 10rem);
+    }
+    .about-us .container .left-text,
+.right-text {
+    font-size: 20px;
+}
+.about-us .container 
+.right-text 
+{
+    padding-top: 0;
+    margin-bottom: 5rem;
+}
+.about-us .container 
+.left-text 
+{
+    margin-bottom: 0rem;
+}
+.about-us .container 
+.right{
+    margin-top:0;
+}
+.about-us .container .left,
+.right {
+    padding: 0rem 1rem;
+} 
+.about-us .container .right .right-text {
+    padding-top: 0;
+    height: 150px;
+    font-size: 20px;
+    line-height: 23.5px;
+}
+.about-us .container .right ul li {
+    letter-spacing: 5%;
+    color: #324a88;
+    font-size: 20px;
+}
+.about-us .container .events-section h5{
+    font-size: 16px;
+    font-weight: 200;
+}   
 }

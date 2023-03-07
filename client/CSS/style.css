@@ -411,3 +411,16 @@ footer button:hover {
     text-align: center;
     margin-top: 20px;
 }
+@media only screen and (max-width: 640px) {
+    .about-us{
+    
+    }
+    .about-us .container{
+        flex-direction:column;
+        padding: 0 5rem;
+    }
+    .about-us .about-title{
+        margin-left: 5rem;
+    }
+    
+}

@@ -69,6 +69,24 @@ header ul a {
 .navbtn:hover {
     background-color: cadetblue;
 }
+.lines{
+    width: 36px;
+        /* height: px; */
+        border: 0.125rem solid rgb(238, 231, 231);
+        margin-bottom: 0.5rem;
+}
+#open_nav{
+    display: none;
+    font-size: 18pt;
+}
+#close_nav{
+    font-size: 3.5rem;
+    display: none;
+}
+
+
+
+
 
 /* Hero Section */
 
@@ -410,6 +428,20 @@ footer button:hover {
 }
 
 @media only screen and (max-width: 640px) {
+ #nav{
+        display: none;
+    }
+    #open_nav{
+        display: block;
+        margin-left: auto;
+    }
+    #close_nav{
+        /* display: block; */
+        margin-left: auto;
+        margin-top: 0;
+    }
+
+
     /* Splash section */
     .landingpage {
         display: flex;
@@ -542,6 +574,24 @@ footer button:hover {
     }
 }
 @media only screen and (max-width: 840px) {
+ header{
+        /* border: 2px solid red; */
+        width: 100%;
+        justify-content: flex-start;
+        margin-right: 0;
+    }
+    header h1{
+        margin-left: 0;
+        padding-left: 2%;
+    }
+    #nav{
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+
+
     /* Splash section */
     .landingpage {
         display: flex;

@@ -153,6 +153,24 @@ header ul a {
 	background-color: black;
 }
 
+.ring {
+    height: 332px;
+    width: 332px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -100;
+    filter: blur(100px);
+}
+.left-ring {
+    top: 160px;
+    left: -153px;
+    background: #e9edff;
+}
+.right-ring {
+    top: -138px;
+    left: 1231px;
+    background: #f85072;
+}
 
 /* About us section */
 .about-us {

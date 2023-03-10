@@ -6,7 +6,7 @@ let closeBtn=document.querySelector("#close_nav");
 
 
 openBtn.addEventListener('click', openMenu);
-close_btn.addEventListener('click', closeMenu);
+closeBtn.addEventListener('click', closeMenu);
 
 
 function openMenu(){

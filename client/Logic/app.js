@@ -1,20 +1,20 @@
 console.log('hello world!!')
 
-let open_btn=document.querySelector("#open_nav");
-let close_btn=document.querySelector("#close_nav");
+let openBtn=document.querySelector("#open_nav");
+let closeBtn=document.querySelector("#close_nav");
 
 
 
-open_btn.addEventListener('click', openMenu);
+openBtn.addEventListener('click', openMenu);
 close_btn.addEventListener('click', closeMenu);
 
 
 function openMenu(){
-    open_btn.style.display="none";
-    close_btn.style.display="block";
+    openBtn.style.display="none";
+    closeBtn.style.display="block";
 }
 
 function closeMenu(){
-    open_btn.style.display="block";
-    close_btn.style.display="none";
+    openBtn.style.display="block";
+    closeBtn.style.display="none";
 }

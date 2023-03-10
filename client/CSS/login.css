@@ -23,8 +23,11 @@ body{
 #col1{
     display: none;
 }
-#btn2{
+#btn2,#btnl{
     margin-left:30%;
 
+}
+.btn{
+    width: 50%;
 }
 }

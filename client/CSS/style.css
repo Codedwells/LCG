@@ -244,7 +244,7 @@ header ul a {
 .ourwork_card_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 3rem;
+    gap: 20px;
 }
 
 .ourwork_heading {
@@ -411,16 +411,310 @@ footer button:hover {
     margin-top: 20px;
 }
 
-/* About us media query */
+@media only screen and (max-width: 640px) {
+    /* Splash section */
+    .landingpage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0rem !important;
+    }
 
-@media screen and (max-width: 840px) {
+    .rightside {
+        display: flex;
+        align-items: center;
+    }
+
+    .left-side {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    /* About us section */
+    .about-us .container {
+        flex-direction: column;
+        padding: 0 5rem;
+
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .about-us .about-title {
+        margin-left: 5rem;
+        font-size: 0.6em;
+    }
+
+    .about-us .container .left .image-container {
+        width: calc(500px - 10rem);
+        height: fit-content;
+        overflow: hidden;
+    }
+
+    .about-us .image-container img {
+        width: calc(500px - 10rem);
+    }
+
+    .about-us .container .left-text,
+    .right-text {
+        font-size: 0.5em;
+    }
+
+    .about-us .container .right-text {
+        padding-top: 0;
+        margin-bottom: 5rem;
+    }
+
+    .about-us .container .left-text {
+        margin-bottom: 0rem;
+        display: none;
+    }
+
+    .about-us .container .right {
+        margin-top: 0;
+    }
+
+    .about-us .container .left,
+    .right {
+        padding: 0rem;
+    }
+
+    .about-us .container .right .right-text {
+        height: 230px;
+    }
+
+    .about-us .container .right ul li {
+        letter-spacing: 5%;
+        color: #324a88;
+        font-size: 20px;
+    }
+
+    .about-us .container .events-section h5 {
+        font-size: 16px;
+        font-weight: 200;
+    }
+
+    .events-section {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: -2rem;
+        margin-left: 3rem;
+    }
+
+    /* Our work section */
+
+    .ourwork_card_container {
+        grid-template-columns: 1fr !important;
+    }
+
+    /* Footer */
+
+    #quick-links {
+        /* display: block; */
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #brand {
+        margin-bottom: 20px;
+    }
+
+    #updates {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 840px) {
+    /* Splash section */
+    .landingpage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+    }
+
+    .rightside {
+        display: flex;
+        align-items: center;
+    }
+
+    .left-side {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+
+    .button-container {
+        display: flex;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    /* About us section */
+
+    .about-us .about-title {
+        margin-left: 5rem;
+    }
+
+    .about-us .container .left .image-container {
+        width: calc(500px - 10rem);
+        height: fit-content;
+        overflow: hidden;
+    }
+
+    .about-us .image-container img {
+        width: calc(500px - 10rem);
+    }
+
+    .about-us .container .left-text,
+    .right-text {
+        font-size: 20px;
+    }
+
+    .about-us .container .right-text {
+        width: 20rem;
+    }
+
+    .about-us .container .left-text {
+        margin-bottom: 0rem;
+    }
+
+    .about-us .container .right {
+        margin-top: 0;
+    }
+
+    .about-us .container .left,
+    .right {
+        padding: 0rem 1rem;
+    }
+
+    .about-us .container .right .right-text {
+        padding-top: 0;
+        height: 150px;
+        font-size: 20px;
+        line-height: 23.5px;
+    }
+
+    .about-us .container .right ul li {
+        letter-spacing: 5%;
+        color: #324a88;
+        font-size: 20px;
+    }
+
+    .about-us .container .events-section h5 {
+        font-size: 16px;
+        font-weight: 200;
+    }
+
+    /* Our work section */
+    .ourwork_section {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .ourwork_card_container {
         grid-template-columns: 1fr 1fr;
     }
+
+    /* Footer */
+
+    #quick-links {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px;
+    }
+    #updates {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #brand {
+        margin-top: 20px;
+    }
 }
 
-@media screen and (max-width: 640px) {
-    .ourwork_card_container {
-        grid-template-columns: 1fr;
+@media only screen and (max-width: 1024px) {
+    /* About us section */
+    .about-us .container {
+        padding: 0 5rem;
+    }
+
+    .about-us .about-title {
+        margin-left: 5rem;
+    }
+
+    .about-us .container .left .image-container {
+        width: calc(500px - 10rem);
+        height: fit-content;
+        overflow: hidden;
+    }
+
+    .about-us .image-container img {
+        width: calc(500px - 10rem);
+    }
+
+    .about-us .container .left-text,
+    .right-text {
+        font-size: 20px;
+    }
+
+    .about-us .container .right-text {
+        padding-top: 0;
+        margin-bottom: 5rem;
+    }
+
+    .about-us .container .left-text {
+        margin-bottom: 0rem;
+    }
+
+    .about-us .container .right {
+        margin-top: 0;
+    }
+
+    .about-us .container .left,
+    .right {
+        padding: 0rem 1rem;
+    }
+
+    .about-us .container .right .right-text {
+        padding-top: 0;
+        height: 150px;
+        font-size: 20px;
+        line-height: 23.5px;
+    }
+
+    .about-us .container .right ul li {
+        letter-spacing: 5%;
+        color: #324a88;
+        font-size: 20px;
+    }
+
+    .about-us .container .events-section h5 {
+        font-size: 16px;
+        font-weight: 200;
     }
 }

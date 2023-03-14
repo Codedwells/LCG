@@ -691,7 +691,7 @@ footer button:hover {
         margin-left: 0;
     }
 
-    .rightside p{
+    .rightside p {
         font-size: 2em;
         font-family: 'Poppins';
     }
@@ -710,6 +710,10 @@ footer button:hover {
         width: 100%;
         margin-top: 1rem;
         margin-right: 0;
+    }
+
+    .right-ring {
+        display: hidden;
     }
 
     /* About us section */

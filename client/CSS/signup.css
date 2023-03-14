@@ -13,22 +13,23 @@ body{
     float: none;
     margin: auto;
 }
-
-#btn2{
-    margin-left:10%
+.btn{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 2%;
 }
+.btn2{
+    display: none;
+}
+
 
 
 @media (min-width: 0) and (max-width: 820px) {
 #col1{
     display: none;
 }
-#btn2,#btnl{
-    margin-left:30%;
-
-}
-.btn{
-    width: 50%;
+.btn2{
+    display: initial;
 }
 body{
     margin-top: 30%;

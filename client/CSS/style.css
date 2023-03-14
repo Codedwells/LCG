@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #e9e0e0;
 }
 body {
     background-color: #240d52;
@@ -69,88 +70,104 @@ header ul a {
 .navbtn:hover {
     background-color: cadetblue;
 }
-.lines{
+.lines {
     width: 36px;
-        /* height: px; */
-        border: 0.125rem solid rgb(238, 231, 231);
-        margin-bottom: 0.5rem;
+    /* height: px; */
+    border: 0.125rem solid rgb(238, 231, 231);
+    margin-bottom: 0.5rem;
 }
-#open_nav{
+#open_nav {
     display: none;
     font-size: 18pt;
 }
-#close_nav{
-    font-size: 3.5rem;
+#close_nav {
+    font-size: 4.5rem;
+    margin-top: -1.3rem;
+    display: none;
     display: none;
 }
 
-
-
-
-
 /* Hero Section */
 
-.landingpage{
-	display: flex;
-	gap: 10px;
-	justify-content: space-around;
-	color: #ffffff;
+.landingpage {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    color: #ffffff;
 }
 
-.landingpage p{
-	line-height: 2;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:20px;
-	font-weight: 100px;
+.landingpage p {
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100px;
 }
-.landingpage h1{
-	font-size: xx-large;
-	font-family:Arial, Helvetica, sans-serif;
-	letter-spacing: 3px;
-}
-
-.left-side{
-	justify-content: end;
-	align-items: center;
+.landingpage h1 {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
 }
 
-.left-side img{
-	width: 60%;
-	border: none;
-	border-radius: 50%;
-
+.left-side {
+    margin-top: 6rem;
+    margin-left: 6rem;
+    justify-content: end;
+    align-items: center;
 }
 
-.rightside{
-	display: flex;
-	flex-direction: column;
-	/* justify-content: space-evenly; */
+.left-side img {
+    width: 500px;
 }
 
-.button-container{
-	display: flex;
+.rightside {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    margin-left: 10rem;
 }
 
-.button-container .btn{
-	display: flex;
-	border: none;
-	justify-content: space-around;
-	align-items: center;
-	border-radius: 10px;
-	color: white;
-	margin: 15px 10px;
-	padding: 10px;
+.rightside h1 {
+    font-size: 4em !important;
+    margin-bottom: 2rem;
 }
 
-.button-container .btn img{
-	width: 30%;
+.rightside p {
+    text-transform: capitalize;
 }
 
-.button-container  .twitter{
-	background-color: #10afd3;
+.button-container {
+    display: flex;
+    margin-right: 5rem;
+    margin-top: 3rem;
 }
-.button-container .git{
-	background-color: black;
+
+.button-container .btn {
+    display: flex;
+    border: none;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    margin: 15px 10px;
+    padding: 5px;
+    width: 250px;
+}
+
+.button-container .btn img {
+    width: 30%;
+}
+
+.button-container span {
+    font-size: 2em;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.button-container .twitter {
+    background-color: #10afd3;
+}
+.button-container .git {
+    background-color: black;
 }
 
 .ring {
@@ -181,7 +198,7 @@ header ul a {
     font-size: 27px;
     text-transform: capitalize;
     line-height: 31.5px;
-    margin-top: 4rem;
+    margin-top: 9rem;
     color: white;
 }
 
@@ -335,6 +352,10 @@ header ul a {
     padding: 10px;
 }
 
+.ourwork_project_description p {
+    color: #423e3e;
+}
+
 .ourwork_btn {
     display: flex;
     align-items: center;
@@ -368,6 +389,7 @@ header ul a {
     font-family: 'Outfit';
     font-size: 32px;
     line-height: 2rem;
+    color: #423e3e;
 }
 
 .ourwork_icon_navname {
@@ -375,6 +397,7 @@ header ul a {
     font-weight: 400;
     font-size: 24px;
     display: block;
+    color: #423e3e;
 }
 
 .ourwork_icon_first {
@@ -382,6 +405,7 @@ header ul a {
     font-weight: 400;
     font-size: 16px;
     margin-top: -20px;
+    color: #423e3e;
 }
 
 /** Footer section */
@@ -448,11 +472,11 @@ footer button:hover {
 }
 
 @media only screen and (max-width: 640px) {
-    #nav{
-         display: none;
+    #nav {
+        display: none;
     }
-    #nav ul{
-        background-color:  #432482;
+    #nav ul {
+        background-color: #432482;
         position: fixed;
         display: flex;
         flex-direction: column;
@@ -462,16 +486,15 @@ footer button:hover {
         width: 50vw;
         height: 115vh;
         padding-top: 2rem;
+        padding-left: 10px;
         z-index: 2;
     }
-   #nav a{
-     color: ;
-   }
-    #open_nav{
+
+    #open_nav {
         display: block;
         margin-left: auto;
     }
-    #close_nav{
+    #close_nav {
         position: fixed;
         top: -0.2rem;
         right: 0;
@@ -480,7 +503,6 @@ footer button:hover {
         /* margin-left: auto; */
         /* margin-top: 0; */
     }
-
 
     /* Splash section */
     .landingpage {
@@ -493,6 +515,18 @@ footer button:hover {
     .rightside {
         display: flex;
         align-items: center;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .rightside h1 {
+        font-size: 2.5em !important;
+    }
+
+    .rightside p {
+        font-size: 1.5em !important;
+        font-family: 'Poppins';
+        text-align: center;
     }
 
     .left-side {
@@ -501,16 +535,29 @@ footer button:hover {
         justify-content: center;
         margin-bottom: 3rem;
         margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .left-side img {
+        width: 300px;
+        margin-left: 0;
     }
 
     .button-container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         margin-top: 1rem;
+        margin-right: 0;
     }
 
     /* About us section */
+    .about-us {
+        margin-top: 2.6rem;
+    }
+
     .about-us .container {
         flex-direction: column;
         padding: 0 5rem;
@@ -522,7 +569,7 @@ footer button:hover {
 
     .about-us .about-title {
         margin-left: 5rem;
-        font-size: 0.6em;
+        font-size: 1.2em;
     }
 
     .about-us .container .left .image-container {
@@ -614,23 +661,21 @@ footer button:hover {
     }
 }
 @media only screen and (max-width: 840px) {
- header{
+    header {
         /* border: 2px solid red; */
         width: 100%;
         justify-content: flex-start;
         margin-right: 0;
     }
-    header h1{
+    header h1 {
         margin-left: 0;
         padding-left: 2%;
     }
-    #nav{
+    #nav {
         padding-right: 0;
         margin-left: auto;
         margin-right: 0;
     }
-
-
 
     /* Splash section */
     .landingpage {
@@ -643,6 +688,12 @@ footer button:hover {
     .rightside {
         display: flex;
         align-items: center;
+        margin-left: 0;
+    }
+
+    .rightside p{
+        font-size: 2em;
+        font-family: 'Poppins';
     }
 
     .left-side {
@@ -651,12 +702,14 @@ footer button:hover {
         justify-content: center;
         margin-bottom: 3rem;
         margin-top: 2rem;
+        margin-left: 0;
     }
 
     .button-container {
         display: flex;
         width: 100%;
         margin-top: 1rem;
+        margin-right: 0;
     }
 
     /* About us section */

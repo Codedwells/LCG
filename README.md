@@ -1,6 +1,10 @@
 # 💻LCG (Learn Code and Grow)
 
-This is a 👐 community where we help each other grow. ![LCG website design](client/assets/screenshots/project_design.jpeg)
+This is a 👐 community where we help each other grow. ![LCG website design](client/assets/screenshots/project_design.png)
+<br>
+![LCG website design](client/assets/screenshots/signup.png)
+<br>
+![LCG blog](client/assets/screenshots/blog.png)
 
 > Link to figma file [here](https://www.figma.com/file/wKVEmN4WKVAZCeBEwhAvYH/Untitled?node-id=0%3A1&t=Res45b52njY2m1uJ-1)
 

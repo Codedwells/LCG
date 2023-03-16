@@ -1,0 +1,12 @@
+h3{
+    border-left: 3px solid black;
+    padding-left: 04px;
+    
+}
+button{
+    background-color: white;
+    border-radius: 08px;
+    padding: 04px;
+    cursor: pointer;
+}
+  
